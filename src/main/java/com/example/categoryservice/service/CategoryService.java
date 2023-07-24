@@ -5,6 +5,7 @@ import com.example.categoryservice.repository.CategoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -21,5 +22,10 @@ public class CategoryService {
     public Category getCategoryById(Long id) {
         Optional<Category> obj=categoryRepository.findById(id);
        return obj.get();
+    }
+
+    public List<Category> fetchCategories() {
+
+        return categoryRepository.findAll();
     }
 }

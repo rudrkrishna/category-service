@@ -1,0 +1,18 @@
+//Add Categories
+
+{
+    "categoryName":"Politics",
+    "categoryDescription": "Polity Books"
+}
+
+
+{
+    "categoryName":"Technology",
+    "categoryDescription": "New Tech Books"
+}
+
+
+{
+    "categoryName":"Science",
+    "categoryDescription": "Science Books"
+}
